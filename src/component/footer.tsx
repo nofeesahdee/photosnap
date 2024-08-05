@@ -1,11 +1,11 @@
 import Link from "next/link"
 import Logo from "../starter-code/assets/shared/desktop/logo.svg"
 import Image from 'next/image'
-import arrow from "../starter-code/assets/shared/desktop/arrow.svg"
+import InviteBtn from "./invite"
 
 export default function Footer() {
     return (
-        <footer className="bg-black text-white flex w-full justify-between items-center p-[165px]" >
+        <footer className="bg-black text-white flex w-[1440px] justify-between items-center p-[165px]" >
             <div className="flex">
                 <div>
                     <Image src={Logo} alt={"logo"} />
@@ -22,13 +22,9 @@ export default function Footer() {
                     <Link href={'/features'}><li>Features</li></Link>
                     <Link href={'/pricing'}><li>Pricing</li></Link>
                 </ul>
-
             </div >
             <div>
-                <Link href={"/"} className="flex uppercase justify-between">
-                    Get an invite
-                    <Image src={arrow} alt={"arrow"} />
-                </Link>
+                <InviteBtn />
                 <span> Copyright 2019. All Rights Reserved</span>
             </div>
         </footer >

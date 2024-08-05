@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Footer from "../component/footer";
 import Navbar from "../component/navbar";
 import stories from "../starter-code/assets/home/desktop/beautiful-stories.jpg"
@@ -12,8 +11,9 @@ import mountain from "../starter-code/assets/stories/desktop/mountains.jpg"
 import voyage from "../starter-code/assets/stories/desktop/18-days-voyage.jpg"
 import architecturals from "../starter-code/assets/stories/desktop/architecturals.jpg"
 import cityscapes from "../starter-code/assets/stories/desktop/cityscapes.jpg"
+import InviteBtn from "../component/invite";
+import Link from "next/link";
 import arrow from "../starter-code/assets/shared/desktop/arrow.svg"
-
 
 export default function Page() {
     return (
@@ -27,10 +27,7 @@ export default function Page() {
                             Photosnap is a platform for photographers and visual storytellers. We make it
                             easy to share photos, tell stories and connect with others.
                         </p>
-                        <Link href={"/"} className="flex uppercase justify-between">
-                            Get an invite
-                            <Image src={arrow} alt={"arrow"} />
-                        </Link>
+                        <InviteBtn />
                     </div>
                     <div>
                         <Image src={create} alt={"create"} />

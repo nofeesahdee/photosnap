@@ -513,6 +513,10 @@ video {
 .z-10 {
   z-index: 10;
 }
+.my-\[52px\] {
+  margin-top: 52px;
+  margin-bottom: 52px;
+}
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -521,6 +525,9 @@ video {
 }
 .mb-\[0px\] {
   margin-bottom: 0px;
+}
+.mb-\[21px\] {
+  margin-bottom: 21px;
 }
 .mb-\[35px\] {
   margin-bottom: 35px;
@@ -531,23 +538,26 @@ video {
 .h-\[1px\] {
   height: 1px;
 }
+.h-\[280px\] {
+  height: 280px;
+}
+.h-\[490px\] {
+  height: 490px;
+}
 .h-\[500px\] {
   height: 500px;
 }
 .h-full {
   height: 100%;
 }
-.h-screen {
-  height: 100vh;
-}
-.h-\[650\] {
-  height: 650;
-}
-.h-\[650px\] {
-  height: 650px;
+.w-1\/2 {
+  width: 50%;
 }
 .w-\[1110px\] {
   width: 1110px;
+}
+.w-\[1440px\] {
+  width: 1440px;
 }
 .w-\[350px\] {
   width: 350px;
@@ -555,14 +565,17 @@ video {
 .w-\[360px\] {
   width: 360px;
 }
+.w-\[400px\] {
+  width: 400px;
+}
 .w-full {
   width: 100%;
 }
-.max-w-\[387px\] {
-  max-width: 387px;
-}
 .max-w-\[1440px\] {
   max-width: 1440px;
+}
+.max-w-\[387px\] {
+  max-width: 387px;
 }
 .flex-col {
   flex-direction: column;
@@ -576,9 +589,6 @@ video {
 .items-center {
   align-items: center;
 }
-.justify-start {
-  justify-content: flex-start;
-}
 .justify-end {
   justify-content: flex-end;
 }
@@ -588,17 +598,8 @@ video {
 .justify-between {
   justify-content: space-between;
 }
-.self-auto {
-  align-self: auto;
-}
-.self-start {
-  align-self: flex-start;
-}
 .self-center {
   align-self: center;
-}
-.justify-self-start {
-  justify-self: start;
 }
 .overflow-hidden {
   overflow: hidden;
@@ -627,9 +628,6 @@ video {
 .p-\[165px\] {
   padding: 165px;
 }
-.p-8 {
-  padding: 2rem;
-}
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -641,6 +639,14 @@ video {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+.px-\[112px\] {
+  padding-left: 112px;
+  padding-right: 112px;
+}
+.px-\[165px\] {
+  padding-left: 165px;
+  padding-right: 165px;
 }
 .py-24 {
   padding-top: 6rem;
@@ -667,17 +673,14 @@ video {
 .pb-4 {
   padding-bottom: 1rem;
 }
-.pt-2 {
-  padding-top: 0.5rem;
-}
-.pl-2 {
-  padding-left: 0.5rem;
-}
 .pl-28 {
   padding-left: 7rem;
 }
 .pl-\[9px\] {
   padding-left: 9px;
+}
+.pt-2 {
+  padding-top: 0.5rem;
 }
 .pt-4 {
   padding-top: 1rem;
@@ -685,20 +688,17 @@ video {
 .pt-8 {
   padding-top: 2rem;
 }
-.pl-4 {
-  padding-left: 1rem;
-}
-.pl-8 {
-  padding-left: 2rem;
-}
-.pb-8 {
-  padding-bottom: 2rem;
-}
 .text-center {
   text-align: center;
 }
+.text-\[12px\] {
+  font-size: 12px;
+}
 .text-\[13px\] {
   font-size: 13px;
+}
+.text-\[15px\] {
+  font-size: 15px;
 }
 .text-\[40px\] {
   font-size: 40px;
@@ -706,12 +706,6 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-.text-\[12px\] {
-  font-size: 12px;
-}
-.text-\[15px\] {
-  font-size: 15px;
 }
 .font-bold {
   font-weight: 700;
@@ -722,17 +716,11 @@ video {
 .leading-\[25px\] {
   line-height: 25px;
 }
-.tracking-wider {
-  letter-spacing: 0.05em;
-}
-.tracking-wide {
-  letter-spacing: 0.025em;
+.leading-\[48px\] {
+  line-height: 48px;
 }
 .tracking-\[2px\] {
   letter-spacing: 2px;
-}
-.tracking-\[px\] {
-  letter-spacing: px;
 }
 .tracking-\[4\.17px\] {
   letter-spacing: 4.17px;
@@ -745,18 +733,26 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-/* 
-body {
-    overflow-x: hidden;
+@media (min-width: 640px) {
 
-} */
+  .sm\:bg-bg-beta-mobile {
+    background-image: url(/_next/static/media/bg-beta.6b7ef005.jpg);
+  }
 
-/* .stories {
-    height: 100vh;
-    background-image: url('../starter-code/assets/stories/desktop/moon-of-appalacia.jpg');
-    background-repeat: no-repeat;
-} */
+  .sm\:bg-hero-features-mobile {
+    background-image: url(/_next/static/media/hero.f3a41310.jpg);
+  }
+}
+@media (min-width: 768px) {
 
+  .md\:bg-bg-beta-tablet {
+    background-image: url(/_next/static/media/bg-beta.bb47b206.jpg);
+  }
+
+  .md\:bg-hero-features-tablet {
+    background-image: url(/_next/static/media/hero.d6fc1df3.jpg);
+  }
+}
 @media (min-width: 1024px) {
 
   .lg\:flex {
@@ -777,6 +773,14 @@ body {
 
   .lg\:w-\[610px\] {
     width: 610px;
+  }
+
+  .lg\:bg-bg-beta-desktop {
+    background-image: url(/_next/static/media/bg-beta.edda93cc.jpg);
+  }
+
+  .lg\:bg-hero-features-desktop {
+    background-image: url(/_next/static/media/hero.817111ab.jpg);
   }
 
   .lg\:px-28 {

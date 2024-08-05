@@ -12,7 +12,18 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-stories': "url('../starter-code/assets/stories/desktop/moon-of-appalacia.jpg')",
-        'footer-texture': "url('/img/footer-texture.png')",
+
+        'hero-features-desktop': "url('../starter-code/assets/features/desktop/hero.jpg')",
+        'hero-features-tablet': "url('../starter-code/assets/features/tablet/hero.jpg')",
+        'hero-features-mobile': "url('../starter-code/assets/features/mobile/hero.jpg')",
+
+        'hero-pricing-desktop': "url('../starter-code/assets/pricing/desktop/hero.jpg')",
+        'hero-pricing-tablet': "url('../starter-code/assets/pricing/tablet/hero.jpg')",
+        'hero-pricing-mobile': "url('../starter-code/assets/pricing/mobile/hero.jpg')",
+
+        'bg-beta-desktop': "url('../starter-code/assets/shared/desktop/bg-beta.jpg')",
+        'bg-beta-tablet': "url('../starter-code/assets/shared/tablet/bg-beta.jpg')",
+        'bg-beta-mobile': "url('../starter-code/assets/shared/mobile/bg-beta.jpg')",
       }
     },
   },
