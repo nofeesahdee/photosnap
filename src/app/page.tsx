@@ -118,7 +118,7 @@ export default function Page() {
                     </div>
                 </div>
                 <div className="flex lg:w-[1110px] justify-between py-24 items-end">
-                    <div className="flex flex-col text-center items-center w-[350px] px-4">
+                    <div className="flex flex-col text-center items-center w-[350px] px-4 my-[52px]">
                         <Image src={responsive} alt={""} width={50} height={50} className="mb-12" />
                         <h2 className="text-lg font-bold pb-2">100% Responsive</h2>
                         <p>
@@ -126,7 +126,7 @@ export default function Page() {
                             look beautiful on any screen.
                         </p>
                     </div>
-                    <div className="flex flex-col text-center items-center w-[350px] px-4">
+                    <div className="flex flex-col text-center items-center w-[350px] px-4 my-[52px]">
                         <Image src={nolimit} alt={""} width={50} height={50} className="mb-12" />
                         <h2 className="text-lg font-bold pb-2">  No Photo Upload Limit</h2>
                         <p>
@@ -134,7 +134,7 @@ export default function Page() {
                             share all of your stories in one go.
                         </p>
                     </div>
-                    <div className="flex flex-col text-center items-center w-[350px] px-4">
+                    <div className="flex flex-col text-center items-center w-[350px] px-4 my-[52px]">
                         <Image src={embed} alt={""} width={50} height={50} className="mb-12 " />
                         <h2 className="text-lg font-bold pb-2"> Available to Embed</h2>
                         <p>

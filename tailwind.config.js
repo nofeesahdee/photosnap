@@ -1,17 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './app/**/*.{js,ts,jsx,tsx,mdx}', // Note the addition of the `app` directory.
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
-
-    // Or if using `src` directory:
     './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
       backgroundImage: {
-        'hero-stories': "url('../starter-code/assets/stories/desktop/moon-of-appalacia.jpg')",
+        'hero-stories-desktop': "url('../starter-code/assets/stories/desktop/moon-of-appalacia.jpg')",
+        'hero-stories-tablet': "url('../starter-code/assets/stories/tablet/moon-of-appalacia.jpg')",
+        'hero-stories-mobile': "url('../starter-code/assets/stories/mobile/moon-of-appalacia.jpg')",
 
         'hero-features-desktop': "url('../starter-code/assets/features/desktop/hero.jpg')",
         'hero-features-tablet': "url('../starter-code/assets/features/tablet/hero.jpg')",

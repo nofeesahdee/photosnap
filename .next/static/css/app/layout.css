@@ -513,6 +513,17 @@ video {
 .z-10 {
   z-index: 10;
 }
+.m-\[165px\] {
+  margin: 165px;
+}
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.my-\[165px\] {
+  margin-top: 165px;
+  margin-bottom: 165px;
+}
 .my-\[52px\] {
   margin-top: 52px;
   margin-bottom: 52px;
@@ -526,20 +537,47 @@ video {
 .mb-\[0px\] {
   margin-bottom: 0px;
 }
+.mb-\[18px\] {
+  margin-bottom: 18px;
+}
 .mb-\[21px\] {
   margin-bottom: 21px;
 }
 .mb-\[35px\] {
   margin-bottom: 35px;
 }
+.mb-\[165px\] {
+  margin-bottom: 165px;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
 .flex {
   display: flex;
+}
+.table {
+  display: table;
+}
+.h-2 {
+  height: 0.5rem;
+}
+.h-\[122px\] {
+  height: 122px;
 }
 .h-\[1px\] {
   height: 1px;
 }
 .h-\[280px\] {
   height: 280px;
+}
+.h-\[407px\] {
+  height: 407px;
+}
+.h-\[40px\] {
+  height: 40px;
+}
+.h-\[470px\] {
+  height: 470px;
 }
 .h-\[490px\] {
   height: 490px;
@@ -559,6 +597,9 @@ video {
 .w-\[1440px\] {
   width: 1440px;
 }
+.w-\[270px\] {
+  width: 270px;
+}
 .w-\[350px\] {
   width: 350px;
 }
@@ -570,6 +611,9 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-\[731px\] {
+  width: 731px;
 }
 .max-w-\[1440px\] {
   max-width: 1440px;
@@ -604,9 +648,19 @@ video {
 .overflow-hidden {
   overflow: hidden;
 }
+.border {
+  border-width: 1px;
+}
+.border-b-2 {
+  border-bottom-width: 2px;
+}
 .bg-\[\#979797\] {
   --tw-bg-opacity: 1;
   background-color: rgb(151 151 151 / var(--tw-bg-opacity));
+}
+.bg-\[\#F5F5F5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
 }
 .bg-black {
   --tw-bg-opacity: 1;
@@ -616,8 +670,19 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-hero-stories {
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+.bg-hero-stories-desktop {
   background-image: url(/_next/static/media/moon-of-appalacia.b175358f.jpg);
+}
+.from-\[\#FFC593\] {
+  --tw-gradient-from: #FFC593 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 197 147 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.to-\[\#5A77FF\] {
+  --tw-gradient-to: #5A77FF var(--tw-gradient-to-position);
 }
 .bg-center {
   background-position: center;
@@ -688,8 +753,15 @@ video {
 .pt-8 {
   padding-top: 2rem;
 }
+.text-left {
+  text-align: left;
+}
 .text-center {
   text-align: center;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 .text-\[12px\] {
   font-size: 12px;
@@ -742,6 +814,14 @@ video {
   .sm\:bg-hero-features-mobile {
     background-image: url(/_next/static/media/hero.f3a41310.jpg);
   }
+
+  .sm\:bg-hero-pricing-mobile {
+    background-image: url(/_next/static/media/hero.a2b59f87.jpg);
+  }
+
+  .sm\:bg-hero-stories-mobile {
+    background-image: url(/_next/static/media/moon-of-appalacia.26a199a1.jpg);
+  }
 }
 @media (min-width: 768px) {
 
@@ -751,6 +831,14 @@ video {
 
   .md\:bg-hero-features-tablet {
     background-image: url(/_next/static/media/hero.d6fc1df3.jpg);
+  }
+
+  .md\:bg-hero-pricing-tablet {
+    background-image: url(/_next/static/media/hero.214d7d61.jpg);
+  }
+
+  .md\:bg-hero-stories-tablet {
+    background-image: url(/_next/static/media/moon-of-appalacia.17f287df.jpg);
   }
 }
 @media (min-width: 1024px) {
@@ -781,6 +869,14 @@ video {
 
   .lg\:bg-hero-features-desktop {
     background-image: url(/_next/static/media/hero.817111ab.jpg);
+  }
+
+  .lg\:bg-hero-stories-desktop {
+    background-image: url(/_next/static/media/moon-of-appalacia.b175358f.jpg);
+  }
+
+  .lg\:bg-hero-pricing-desktop {
+    background-image: url(/_next/static/media/hero.b1dd99e6.jpg);
   }
 
   .lg\:px-28 {

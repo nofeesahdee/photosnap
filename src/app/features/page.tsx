@@ -8,8 +8,7 @@ import nolimit from "../../starter-code/assets/features/desktop/no-limit.svg"
 import custom from "../../starter-code/assets/features/desktop/custom-domain.svg"
 import exposure from "../../starter-code/assets/features/desktop/boost-exposure.svg"
 import dragdrop from "../../starter-code/assets/features/desktop/drag-drop.svg"
-import InviteBtn from '../../component/invite'
-
+import Beta from '../../component/beta'
 
 export default function Features() {
     return (
@@ -75,10 +74,7 @@ export default function Features() {
                     </p>
                 </div>
             </div>
-            <div className='flex justify-between items-center lg:bg-bg-beta-desktop md:bg-bg-beta-tablet sm:bg-bg-beta-mobile w-[1440px] h-[280px] bg-no-repeat text-white px-[165px]'>
-                <h1 className='text-[40px] font-bold uppercase leading-[48px] w-[400px] tracking-[4.17px]'>We're in Beta. Get your invite today!</h1>
-                <InviteBtn />
-            </div>
+            <Beta />
             <Footer />
         </ div >
     )

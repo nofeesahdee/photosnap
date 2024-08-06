@@ -28,7 +28,7 @@ export default function page() {
     return (
         <div className="flex flex-col justify-center items-center">
             <Navbar />
-            <main className="bg-hero-stories bg-no-repeat bg-center lg:h-[650px] text-white mb-0 w-full flex items-center justify-center pl-28">
+            <main className="lg:bg-hero-stories-desktop md:bg-hero-stories-tablet sm:bg-hero-stories-mobile bg-no-repeat bg-center lg:h-[650px] text-white mb-0 w-full flex items-center justify-center pl-28">
                 <div className="max-w-[387px] ">
                     <span className="font-bold text-[12px] tracking-[2px]">LAST MONTHS FEATURED STORY</span>
                     <h1 className="font-bold text-[40px] py-6 tracking-[4.17px]"> HAZY FULL MOON OF APPALACHIA</h1>
