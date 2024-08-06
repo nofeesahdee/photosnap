@@ -74,63 +74,65 @@ export default function page() {
                     </div >
                 </div >
             </section >
-
-            <table className='w-[731px] mb-[165px]'>
-                <tr className='border-b-2 text-left'>
-                    <th>The Features</th>
-                    <th>Basic</th>
-                    <th>Pro</th>
-                    <th>Business</th>
-                </tr>
-                <tr className='border-b-2 py-4'>
-                    <td>Unlimited Story Posting</td>
-                    <td><Image src={check} alt={'check'} /></td>
-                    <td><Image src={check} alt={'check'} /></td>
-                    <td><Image src={check} alt={'check'} /></td>
-                </tr>
-                <tr className='border-b-2'>
-                    <td>Unlimited Photo Upload</td>
-                    <td><Image src={check} alt={'check'} /></td>
-                    <td><Image src={check} alt={'check'} /></td>
-                    <td><Image src={check} alt={'check'} /></td>
-                </tr>
-                <tr className='border-b-2'>
-                    <td> Embedding Custom Content</td>
-                    <td></td>
-                    <td><Image src={check} alt={'check'} /></td>
-                    <td><Image src={check} alt={'check'} /></td>
-                </tr>
-                <tr className='border-b-2'>
-                    <td> Customize Metadata</td>
-                    <td></td>
-                    <td><Image src={check} alt={'check'} /></td>
-                    <td><Image src={check} alt={'check'} /></td>
-                </tr>
-                <tr className='border-b-2'>
-                    <td> Advanced Metrics</td>
-                    <td></td>
-                    <td></td>
-                    <td><Image src={check} alt={'check'} /></td>
-                </tr>
-                <tr className='border-b-2'>
-                    <td> Photo Downloads</td>
-                    <td></td>
-                    < td></td>
-                    < td > <Image src={check} alt={'check'} /></td>
-                </tr>
-                <tr className='border-b-2'>
-                    <td>Search Engine Indexing</td>
-                    <td></td>
-                    <td></td>
-                    <td><Image src={check} alt={'check'} /></td>
-                </tr>
-                <tr className='border-b-2'>
-                    <td>Custom Analytics</td>
-                    <td></td>
-                    <td></td>
-                    <td><Image src={check} alt={'check'} /></td>
-                </tr>
-            </table>
+            <section className='mb-[165px]'>
+                <h1 className='uppercase text-center font-bold text-[40px] my-10'>compare</h1>
+                <table className='w-[731px]  uppercase font-bold'>
+                    <tr className='border-b-2 text-left p-4'>
+                        <th className='p-4'>The Features</th>
+                        <th className='p-4'>Basic</th>
+                        <th className='p-4'>Pro</th>
+                        <th className='p-4'>Business</th>
+                    </tr>
+                    <tr className='border-b-2 my-4'>
+                        <td className='p-4'>Unlimited Story Posting</td>
+                        <td className='px-8'><Image src={check} alt={'check'} /></td>
+                        <td className='px-8'><Image src={check} alt={'check'} /></td>
+                        <td className='px-8'><Image src={check} alt={'check'} /></td>
+                    </tr>
+                    <tr className='border-b-2'>
+                        <td className='p-4'>Unlimited Photo Upload</td>
+                        <td className='px-8'><Image src={check} alt={'check'} /></td>
+                        <td className='px-8'><Image src={check} alt={'check'} /></td>
+                        <td className='px-8'><Image src={check} alt={'check'} /></td>
+                    </tr>
+                    <tr className='border-b-2'>
+                        <td className='p-4'> Embedding Custom Content</td>
+                        <td className='px-8'></td>
+                        <td className='px-8'><Image src={check} alt={'check'} /></td>
+                        <td className='px-8'><Image src={check} alt={'check'} /></td>
+                    </tr>
+                    <tr className='border-b-2'>
+                        <td className='p-4'> Customize Metadata</td>
+                        <td></td>
+                        <td className='px-8'><Image src={check} alt={'check'} /></td>
+                        <td className='px-8'><Image src={check} alt={'check'} /></td>
+                    </tr>
+                    <tr className='border-b-2'>
+                        <td className='p-4'> Advanced Metrics</td>
+                        <td></td>
+                        <td></td>
+                        <td className='px-8'><Image src={check} alt={'check'} /></td>
+                    </tr>
+                    <tr className='border-b-2'>
+                        <td className='p-4'> Photo Downloads</td>
+                        <td></td>
+                        <td></td>
+                        <td className='px-8'><Image src={check} alt={'check'} /></td>
+                    </tr>
+                    <tr className='border-b-2'>
+                        <td className='p-4'>Search Engine Indexing</td>
+                        <td></td>
+                        <td></td>
+                        <td className='px-8'><Image src={check} alt={'check'} /></td>
+                    </tr>
+                    <tr className='border-b-2'>
+                        <td className='p-4'>Custom Analytics</td>
+                        <td></td>
+                        <td></td>
+                        <td className='px-8'><Image src={check} alt={'check'} /></td>
+                    </tr>
+                </table>
+            </section>
 
             <Beta />
             <Footer />

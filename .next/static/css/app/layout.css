@@ -516,6 +516,9 @@ video {
 .m-\[165px\] {
   margin: 165px;
 }
+.m-10 {
+  margin: 2.5rem;
+}
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -527,6 +530,14 @@ video {
 .my-\[52px\] {
   margin-top: 52px;
   margin-bottom: 52px;
+}
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 .mb-0 {
   margin-bottom: 0px;
@@ -551,6 +562,15 @@ video {
 }
 .mb-4 {
   margin-bottom: 1rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
+}
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+.ml-2 {
+  margin-left: 0.5rem;
 }
 .flex {
   display: flex;
@@ -615,11 +635,20 @@ video {
 .w-\[731px\] {
   width: 731px;
 }
+.w-\[830px\] {
+  width: 830px;
+}
 .max-w-\[1440px\] {
   max-width: 1440px;
 }
 .max-w-\[387px\] {
   max-width: 387px;
+}
+.max-w-screen-lg {
+  max-width: 1024px;
+}
+.max-w-screen-md {
+  max-width: 768px;
 }
 .flex-col {
   flex-direction: column;
@@ -693,6 +722,9 @@ video {
 .p-\[165px\] {
   padding: 165px;
 }
+.p-4 {
+  padding: 1rem;
+}
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -729,6 +761,10 @@ video {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -753,11 +789,17 @@ video {
 .pt-8 {
   padding-top: 2rem;
 }
+.pl-4 {
+  padding-left: 1rem;
+}
 .text-left {
   text-align: left;
 }
 .text-center {
   text-align: center;
+}
+.text-right {
+  text-align: right;
 }
 .text-2xl {
   font-size: 1.5rem;
@@ -861,6 +903,10 @@ video {
 
   .lg\:w-\[610px\] {
     width: 610px;
+  }
+
+  .lg\:w-\[1440px\] {
+    width: 1440px;
   }
 
   .lg\:bg-bg-beta-desktop {

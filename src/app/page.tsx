@@ -20,7 +20,7 @@ export default function Page() {
         <div className="flex flex-col justify-center items-center">
             <Navbar />
             <main className="flex flex-col justify-center items-center">
-                <div className="flex bg-black ">
+                <div className="flex bg-black lg:w-[1440px]">
                     <div className="text-white lg:w-[610px] lg:px-28 self-center">
                         <h1 className="text-[40px] font-bold mb-[35px] uppercase"> Create and share your photo Stories</h1>
                         <p className="mb-[35px]">
@@ -29,14 +29,10 @@ export default function Page() {
                         </p>
                         <InviteBtn />
                     </div>
-                    <div>
-                        <Image src={create} alt={"create"} />
-                    </div>
+                    <Image src={create} alt={"create image"} width={830} />
                 </div>
                 <div className="flex bg-white">
-                    <div>
-                        <Image src={stories} alt={"beautify stories image"} />
-                    </div>
+                    <Image src={stories} alt={"beautify stories image"} />
                     <div className="text-black lg:w-[610px] lg:px-28 self-center">
                         <h1 className="text-[40px] font-bold mb-[35px] uppercase"> Beautiful stories every time</h1>
                         <p className="mb-[35px]">
